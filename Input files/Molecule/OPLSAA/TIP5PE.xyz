@@ -1,0 +1,30 @@
+A special xyz file for MC simulation, additionally contains nonbonded parameters, viewable in Mercury
+Water TIP5P for Ewald summation (lone pairs with element symbol 'E' won't show in Mercury)
+Number of atoms:
+ 5
+Coordinates: (In A, format A2F20.15F20.15F20.15, originate at the centre of mass)
+ O  -0.040130474267205  -0.051847916965744   0.000000000000000
+ H   0.917069525732795  -0.051847916965744   0.000000000000000
+ H  -0.280117682676239   0.874779289520251   0.000000000000000
+ E  -0.287503092329965  -0.371449297091922   0.571543301644082
+ E  -0.287503092329965  -0.371449297091922  -0.571543301644082
+Mass: (In a.m.u)
+ 18.01524
+Epsilon for Lennard-Jones potential: (In kJ/mol)
+ 0.744752
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+Sigma for Lennard-Jones potential: (In A)
+ 3.09700
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+Partial charge: (In e)
+ 0.0
+ 0.241
+ 0.241
+-0.241
+-0.241

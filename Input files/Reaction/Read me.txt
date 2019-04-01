@@ -1,0 +1,3 @@
+The free energy provided by Gaussian is Gibbs free energy
+Reactive Monte Carlo requires Helmholtz free energy change, i.e., should be Gaussian's free energy minus kT*dn
+dn is the molecule number change in reaction

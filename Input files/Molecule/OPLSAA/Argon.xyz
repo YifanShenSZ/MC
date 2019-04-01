@@ -1,0 +1,14 @@
+A special xyz file for MC simulation, additionally contains nonbonded parameters, viewable in Mercury
+Argon from Verlet & Weis, Mol.Phys.,24,1013 (1972)
+Number of atoms:
+ 1
+Coordinates: (In A, format A2F20.15F20.15F20.15, originate at the centre of mass)
+Ar   0.000000000000000   0.000000000000000   0.000000000000000
+Mass: (In a.m.u)
+ 39.948
+Epsilon for Lennard-Jones potential: (In kJ/mol)
+ 0.978638
+Sigma for Lennard-Jones potential: (In A)
+ 3.40100
+Partial charge: (In e)
+ 0.0

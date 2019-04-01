@@ -1,0 +1,22 @@
+A special xyz file for MC simulation, additionally contains nonbonded parameters, viewable in Mercury
+Water SPC
+Number of atoms:
+ 3
+Coordinates: (In A, format A2F20.15F20.15F20.15, originate at the centre of mass)
+ O  -0.037303371992851  -0.052753742540859   0.000000000000000
+ H   0.962696628007149  -0.052753742540859   0.000000000000000
+ H  -0.370616619561088   0.890062400190859   0.000000000000000
+Mass: (In a.m.u)
+ 18.01524
+Epsilon for Lennard-Jones potential: (In kJ/mol)
+ 0.650194
+ 0.0
+ 0.0
+Sigma for Lennard-Jones potential: (In A)
+ 3.16557
+ 0.0
+ 0.0
+Partial charge: (In e)
+-0.82
+ 0.41
+ 0.41
