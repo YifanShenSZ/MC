@@ -1,0 +1,57 @@
+Job type: (NewStructure, Optimize, Analyze)
+NewStructure
+Total trial steps: (No bigger than 2147483647 as it is the RAND_MAX of Fortran, must be a multiple of 1000000 for Analyze)
+10000000
+Number of periodic dimensions: (Assume cylindrical geometry for 1 dimensionally periodc system)
+3
+Box size: (In A, format F20.15F20.15F20.15)
+    Axis order: cartesian x-y-z, cylindrical z-x-y. For a cylinder the 2nd size is the radius and the 3rd size is not referred
+  22.500000000000000  22.500000000000000  22.500000000000000
+Number of molecule kinds:
+6
+Molecule detail files: (File name no longer than 32 characters, small molecule first)
+TIP4PEW.xyz
+Acetone.xyz
+ECH_Boat.xyz
+ECH_Chair.xyz
+CHD_Boat.xyz
+CHD_Chair.xyz
+Maximum possible number of each kind of molecule: (Descending order recommended)
+280
+77
+0
+14
+0
+0
+Current number of each kind of molecule:
+280
+77
+0
+14
+0
+0
+Ensemble: (NVT, NPT, mVT, mPT, RVT, RPT, not referred for NewStructure)
+NVT
+Temperature: (In K)
+333.15
+Pressure: (In bar, referred only for P ensemble)
+1.01325
+Chemical potential: (In kJ/mol, referred only for m ensemble)
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+Do you want advanced input? (F means no, T means yes)
+F
+Number of reaction kinds: (Referred only for R ensemble)
+6
+Reaction detail files: (File name no longer than 32 characters)
+    Referred only for R ensemble, supports only A=B or A+B=C when B is small for detailed balance issue
+EB=EC.react
+CB=CC.react
+EB+W=CB.react
+EB+W=CC.react
+EC+W=CB.react
+EC+W=CC.react
